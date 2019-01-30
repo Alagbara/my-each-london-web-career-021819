@@ -3,4 +3,6 @@ def my_each(array)
   while counter < 5
   yield (array[counter])
   couter++
+  end
+   my_each
 end
