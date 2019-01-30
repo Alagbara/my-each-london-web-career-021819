@@ -3,7 +3,7 @@ def my_each(array)
   while counter < array.length
   
   yield(array[counter])
-    couter++
+    counter++
   end
    my_each(array) do |i|
      puts i
