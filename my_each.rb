@@ -4,5 +4,7 @@ def my_each(array)
   yield (array[counter])
   couter++
   end
-   my_each
+   my_each(array) do |i|
+     puts i
+   end
 end
